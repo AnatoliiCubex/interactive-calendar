@@ -1,0 +1,27 @@
+.fc-popover-body {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.fc table {
+  table-layout: auto;
+}
+.fc-view > table {
+  min-width: 0;
+  width: auto;
+}
+.fc-axis {
+  min-width: 100px;
+}
+.fc-day,
+.fc-content-col {
+  min-width: 100px;
+}
+.fc-license-message {
+  display: none;
+}
+
+.fc-timeline-event.fc-event-end {
+  word-break: break-all;
+  height: fit-content;
+}
